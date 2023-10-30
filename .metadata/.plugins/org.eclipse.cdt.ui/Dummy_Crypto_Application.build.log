@@ -1,0 +1,25 @@
+01:04:15 **** Incremental Build of configuration Debug for project Dummy_Crypto_Application ****
+make all 
+C:/Xilinx/Vitis/2023.1/gnuwin/bin/make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+C:/Xilinx/Vitis/2023.1/gnuwin/bin/make --no-print-directory main-build
+'Building file: ../src/crypto.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/crypto.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Galnerd/FYP/Dummy_Crypto_Project/workspace/Dummy_Crypto_Platform/export/Dummy_Crypto_Platform/sw/Dummy_Crypto_Platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/crypto.d" -MT"src/crypto.o" -o "src/crypto.o" "../src/crypto.c"
+'Finished building: ../src/crypto.c'
+' '
+'Building target: Dummy_Crypto_Application.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Galnerd/FYP/Dummy_Crypto_Project/workspace/Dummy_Crypto_Platform/export/Dummy_Crypto_Platform/sw/Dummy_Crypto_Platform/standalone_domain/bsplib/lib -o "Dummy_Crypto_Application.elf"  ./src/crypto.o ./src/dma.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Dummy_Crypto_Application.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Dummy_Crypto_Application.elf  |tee "Dummy_Crypto_Application.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  42291	   3024	 155696	 201011	  31133	Dummy_Crypto_Application.elf
+'Finished building: Dummy_Crypto_Application.elf.size'
+' '
+
+01:04:16 Build Finished (took 597ms)
+

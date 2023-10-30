@@ -1,0 +1,51 @@
+#include "dma.h"
+
+int InitDMA()
+{
+	int Status;
+	XAxiDma_Config *Config;
+	Config = XAxiDma_LookupConfig(DMA_DEV_ID);
+	if (!Config) {
+		xil_printf("No config found for %d\r\n", DMA_DEV_ID);
+
+		return XST_FAILURE;
+	}
+
+	/* Initialize DMA engine */
+	Status = XAxiDma_CfgInitialize(&AxiDma, Config);
+
+	if (Status != XST_SUCCESS) {
+		xil_printf("Initialization failed %d\r\n", Status);
+		return XST_FAILURE;
+	}
+
+	if(XAxiDma_HasSg(&AxiDma)){
+		xil_printf("Device configured as SG mode \r\n");
+		return XST_FAILURE;
+	}
+
+	/* Disable all interrupts before setup */
+
+	XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+						XAXIDMA_DMA_TO_DEVICE);
+
+	XAxiDma_IntrDisable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+				XAXIDMA_DEVICE_TO_DMA);
+
+	/* Set up Interrupt system  */
+	Status = SetupIntrSystem(&Intc, &AxiDma, TX_INTR_ID, RX_INTR_ID);
+	if (Status != XST_SUCCESS) {
+
+		xil_printf("Failed intr setup\r\n");
+		return XST_FAILURE;
+	}
+
+	/* Enable all interrupts */
+	XAxiDma_IntrEnable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+							XAXIDMA_DMA_TO_DEVICE);
+
+
+	XAxiDma_IntrEnable(&AxiDma, XAXIDMA_IRQ_ALL_MASK,
+							XAXIDMA_DEVICE_TO_DMA);
+	return XST_SUCCESS;
+}

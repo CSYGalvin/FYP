@@ -1,0 +1,49 @@
+#ifndef CRYPTO_H /* prevent circular inclusions */
+#define CRYPTO_H /* by using protection macros */
+
+#include "xil_types.h"
+#include "xil_printf.h"
+#include "xil_cache.h"
+#include "xil_util.h"
+
+#define MAX_PAYLOAD_LENGTH 65536
+#define NUMBER_BYTES_PER_BLOCK 16
+#define KEY_LENGTH 32
+#define AAD_LENGTH 16
+#define TAG_LENGTH 16
+#define BLOCK_LENGTH 16
+#define TX_BUFFER_INITIAL_LENGTH (KEY_LENGTH + AAD_LENGTH)
+
+typedef struct CryptoHeader {
+	u8 source_dest_ID;
+	u8 key_index;
+	u16 payload_length;
+	u16 reset_replay_counter;
+	u8 replay_counter[6];
+} CryptoHeader;
+
+typedef struct TxBuffer {
+	u8 key[KEY_LENGTH];
+	u8 reserved[4];
+	CryptoHeader header;
+	u8 plaintext[MAX_PAYLOAD_LENGTH];
+} TxBuffer;
+
+typedef struct RxBuffer {
+	u8 data[MAX_PAYLOAD_LENGTH + TAG_LENGTH];
+} RxBuffer;
+
+/************ Functions for filling with dummy data and dummy key ************/
+void fillTxBuffer(TxBuffer* tx_buffer, int payload_length);
+int checkRxBuffer(TxBuffer* tx_buffer, RxBuffer* rx_buffer, int payload_length);
+
+/************ Functions for printing ************/
+void printTxBuffer(TxBuffer* tx_buffer, int payload_length);
+void printRxBuffer(RxBuffer* rx_buffer, int payload_length);
+
+/************ Utility functions ************/
+int alignToBlock(int payload_length);
+
+int encrypt(TxBuffer* tx_buffer);
+int decrypt(TxBuffer* tx_buffer);
+#endif

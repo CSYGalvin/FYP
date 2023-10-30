@@ -1,0 +1,201 @@
+timestamp=[2023-10-26 00:03:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.003, duration_ms=3, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-10-26 00:03:48], mode=WORKBENCH_START, duration=0:00:09.285, duration_ms=9285, data={}
+timestamp=[2023-10-26 00:03:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.049, duration_ms=49, data={}
+timestamp=[2023-10-26 00:04:33], mode=PLATFORM_CREATION, duration=0:00:10.111, duration_ms=10111, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2023-10-26 00:05:15], mode=APP_CREATION, duration=0:00:05.782, duration_ms=5782, data={name=Dummy_Crypto_Application, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Dummy_Crypto_Platform, application_type=application}
+timestamp=[2023-10-26 00:53:43], mode=PLATFORM_GENERATION, duration=0:00:14.442, duration_ms=14442, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 00:53:43], mode=BUILD, duration=0:00:00.434, duration_ms=434, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 00:55:26], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 00:56:19], mode=BUILD, duration=0:00:00.807, duration_ms=807, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 00:58:38], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 00:59:14], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 01:00:27], mode=BUILD, duration=0:00:00.613, duration_ms=613, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 01:16:51], mode=BUILD, duration=0:00:00.944, duration_ms=944, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 01:19:26], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 01:28:44], mode=PLATFORM_GENERATION, duration=0:00:08.681, duration_ms=8681, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 01:28:47], mode=BUILD, duration=0:00:00.860, duration_ms=860, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 01:36:07], mode=BUILD, duration=0:00:00.542, duration_ms=542, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 01:45:16], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:00:20], mode=PLATFORM_GENERATION, duration=0:00:08.044, duration_ms=8044, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 02:00:27], mode=BUILD, duration=0:00:00.865, duration_ms=865, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:00:37], mode=BUILD, duration=0:00:05.189, duration_ms=5189, data={name=Dummy_Crypto_Application_system, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:08:03], mode=BUILD, duration=0:00:00.159, duration_ms=159, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=true}
+timestamp=[2023-10-26 02:08:04], mode=BUILD, duration=0:00:00.737, duration_ms=737, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:08:27], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:19:43], mode=WORKBENCH_START, duration=0:00:05.669, duration_ms=5669, data={}
+timestamp=[2023-10-26 02:19:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.511, duration_ms=511, data={editors_count=6, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Dummy_Crypto_Application,Dummy_Crypto_Application_system,Dummy_Crypto_Platform,RemoteSystemsTempFiles}
+timestamp=[2023-10-26 02:19:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.056, duration_ms=56, data={}
+timestamp=[2023-10-26 02:27:25], mode=PLATFORM_GENERATION, duration=0:00:07.965, duration_ms=7965, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 02:27:26], mode=BUILD, duration=0:00:00.906, duration_ms=906, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:35:32], mode=PLATFORM_GENERATION, duration=0:00:07.862, duration_ms=7862, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 02:35:48], mode=BUILD, duration=0:00:00.854, duration_ms=854, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:42:27], mode=BUILD, duration=0:00:00.617, duration_ms=617, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:43:48], mode=BUILD, duration=0:00:00.231, duration_ms=231, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 02:46:16], mode=WORKBENCH_START, duration=0:00:05.319, duration_ms=5319, data={}
+timestamp=[2023-10-26 02:46:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.044, duration_ms=44, data={}
+timestamp=[2023-10-26 02:46:16], mode=WORKBENCH_UI_INIT, duration=0:00:00.610, duration_ms=610, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Dummy_Crypto_Application,Dummy_Crypto_Application_system,Dummy_Crypto_Platform,RemoteSystemsTempFiles}
+timestamp=[2023-10-26 02:55:25], mode=PLATFORM_GENERATION, duration=0:00:07.929, duration_ms=7929, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 02:55:28], mode=BUILD, duration=0:00:00.881, duration_ms=881, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:08:46], mode=WORKBENCH_START, duration=0:00:06.012, duration_ms=6012, data={}
+timestamp=[2023-10-26 09:08:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.465, duration_ms=465, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Dummy_Crypto_Application,Dummy_Crypto_Application_system,Dummy_Crypto_Platform,RemoteSystemsTempFiles}
+timestamp=[2023-10-26 09:08:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2023-10-26 09:12:50], mode=PLATFORM_GENERATION, duration=0:00:08.308, duration_ms=8308, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 09:12:50], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=true}
+timestamp=[2023-10-26 09:12:53], mode=BUILD, duration=0:00:00.851, duration_ms=851, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:23:32], mode=BUILD, duration=0:00:00.619, duration_ms=619, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:26:28], mode=PLATFORM_GENERATION, duration=0:00:07.285, duration_ms=7285, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 09:26:30], mode=BUILD, duration=0:00:00.732, duration_ms=732, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:34:49], mode=PLATFORM_GENERATION, duration=0:00:07.430, duration_ms=7430, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 09:34:52], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:35:18], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:51:41], mode=BUILD, duration=0:00:00.820, duration_ms=820, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:53:15], mode=BUILD, duration=0:00:00.731, duration_ms=731, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:54:09], mode=PLATFORM_GENERATION, duration=0:00:07.384, duration_ms=7384, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 09:54:18], mode=BUILD, duration=0:00:00.734, duration_ms=734, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:55:17], mode=BUILD, duration=0:00:00.541, duration_ms=541, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:56:36], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 09:57:10], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:02:33], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:02:51], mode=BUILD, duration=0:00:00.743, duration_ms=743, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:04:24], mode=BUILD, duration=0:00:00.739, duration_ms=739, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:04:55], mode=PLATFORM_GENERATION, duration=0:00:07.262, duration_ms=7262, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 10:05:02], mode=BUILD, duration=0:00:00.734, duration_ms=734, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:07:04], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:08:01], mode=BUILD, duration=0:00:00.730, duration_ms=730, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:09:46], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:10:47], mode=BUILD, duration=0:00:00.545, duration_ms=545, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:11:38], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:12:03], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:12:38], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:13:43], mode=BUILD, duration=0:00:00.741, duration_ms=741, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:13:46], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:14:19], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:23:39], mode=BUILD, duration=0:00:00.422, duration_ms=422, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:24:23], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:25:01], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:25:31], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:26:35], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:27:31], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:29:01], mode=BUILD, duration=0:00:00.740, duration_ms=740, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:29:09], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:29:29], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 10:30:35], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:20:08], mode=BUILD, duration=0:00:01.714, duration_ms=1714, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:20:39], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:22:20], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:33:03], mode=PLATFORM_GENERATION, duration=0:00:11.096, duration_ms=11096, data={name=Dummy_Crypto_Platform}
+timestamp=[2023-10-26 19:33:06], mode=BUILD, duration=0:00:00.852, duration_ms=852, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:34:41], mode=BUILD, duration=0:00:00.740, duration_ms=740, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:39:33], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:40:31], mode=BUILD, duration=0:00:00.615, duration_ms=615, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:43:14], mode=BUILD, duration=0:00:00.599, duration_ms=599, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:43:37], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:43:58], mode=BUILD, duration=0:00:00.617, duration_ms=617, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:44:24], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:48:04], mode=BUILD, duration=0:00:00.482, duration_ms=482, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:48:27], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:50:48], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:53:53], mode=BUILD, duration=0:00:00.737, duration_ms=737, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 19:56:41], mode=BUILD, duration=0:00:00.622, duration_ms=622, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:12:20], mode=BUILD, duration=0:00:00.351, duration_ms=351, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:12:42], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:12:59], mode=BUILD, duration=0:00:00.726, duration_ms=726, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:14:18], mode=BUILD, duration=0:00:00.729, duration_ms=729, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:14:38], mode=BUILD, duration=0:00:00.599, duration_ms=599, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:16:29], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:17:41], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:21:11], mode=BUILD, duration=0:00:00.729, duration_ms=729, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:21:50], mode=BUILD, duration=0:00:00.736, duration_ms=736, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:24:54], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:25:27], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:27:53], mode=BUILD, duration=0:00:00.747, duration_ms=747, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:28:37], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:32:52], mode=BUILD, duration=0:00:00.291, duration_ms=291, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:33:05], mode=BUILD, duration=0:00:00.744, duration_ms=744, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:33:40], mode=BUILD, duration=0:00:00.617, duration_ms=617, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:35:54], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:37:04], mode=BUILD, duration=0:00:00.733, duration_ms=733, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:37:12], mode=BUILD, duration=0:00:00.616, duration_ms=616, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:37:41], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:39:49], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:40:21], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:41:04], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:41:44], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:42:05], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:42:33], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:42:57], mode=BUILD, duration=0:00:00.614, duration_ms=614, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:43:15], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:43:29], mode=BUILD, duration=0:00:00.615, duration_ms=615, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 20:48:45], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:00:46], mode=BUILD, duration=0:00:00.802, duration_ms=802, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:02:31], mode=BUILD, duration=0:00:00.726, duration_ms=726, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:06:09], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:07:35], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:09:16], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:10:21], mode=BUILD, duration=0:00:00.598, duration_ms=598, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:18:22], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:18:29], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:25:15], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:30:37], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:30:45], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:34:48], mode=BUILD, duration=0:00:00.619, duration_ms=619, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:38:39], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:38:49], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:40:54], mode=BUILD, duration=0:00:00.729, duration_ms=729, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:43:37], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:44:32], mode=BUILD, duration=0:00:00.613, duration_ms=613, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:53:08], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=true}
+timestamp=[2023-10-26 21:53:09], mode=BUILD, duration=0:00:00.756, duration_ms=756, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:54:43], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:55:46], mode=BUILD, duration=0:00:00.618, duration_ms=618, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 21:59:29], mode=BUILD, duration=0:00:00.743, duration_ms=743, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:00:13], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:04:38], mode=BUILD, duration=0:00:00.303, duration_ms=303, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:05:15], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:10:29], mode=BUILD, duration=0:00:00.605, duration_ms=605, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:13:12], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:14:42], mode=BUILD, duration=0:00:00.616, duration_ms=616, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:15:53], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:17:06], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:17:49], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:20:12], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-26 22:21:18], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 15:41:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.085, duration_ms=85, data={}
+timestamp=[2023-10-27 15:41:11], mode=WORKBENCH_START, duration=0:00:06.330, duration_ms=6330, data={}
+timestamp=[2023-10-27 15:41:12], mode=WORKBENCH_UI_INIT, duration=0:00:00.174, duration_ms=174, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Dummy_Crypto_Application,Dummy_Crypto_Application_system,Dummy_Crypto_Platform,RemoteSystemsTempFiles}
+timestamp=[2023-10-27 16:50:57], mode=BUILD, duration=0:00:01.444, duration_ms=1444, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 16:52:35], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 16:53:10], mode=BUILD, duration=0:00:00.479, duration_ms=479, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 16:58:45], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 16:59:40], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:00:19], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:01:56], mode=BUILD, duration=0:00:00.785, duration_ms=785, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:05:06], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:06:02], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:13:43], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:13:53], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:14:14], mode=BUILD, duration=0:00:00.724, duration_ms=724, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:14:47], mode=BUILD, duration=0:00:00.598, duration_ms=598, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:15:29], mode=BUILD, duration=0:00:00.593, duration_ms=593, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:18:44], mode=BUILD, duration=0:00:00.853, duration_ms=853, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:33:26], mode=BUILD, duration=0:00:00.599, duration_ms=599, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:36:03], mode=BUILD, duration=0:00:00.547, duration_ms=547, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:37:27], mode=BUILD, duration=0:00:00.730, duration_ms=730, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:43:39], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:44:05], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:45:40], mode=BUILD, duration=0:00:00.718, duration_ms=718, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:49:06], mode=BUILD, duration=0:00:00.900, duration_ms=900, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:50:40], mode=BUILD, duration=0:00:00.849, duration_ms=849, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:53:58], mode=BUILD, duration=0:00:00.605, duration_ms=605, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 17:59:49], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:16:33], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:23:39], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:31:17], mode=BUILD, duration=0:00:00.722, duration_ms=722, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-27 18:39:36], mode=BUILD, duration=0:00:00.920, duration_ms=920, data={name=Dummy_Crypto_Application, configuration=Release, clean_build=false}
+timestamp=[2023-10-27 18:41:47], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-30 00:46:01], mode=WORKBENCH_START, duration=0:00:05.974, duration_ms=5974, data={}
+timestamp=[2023-10-30 00:46:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.122, duration_ms=122, data={}
+timestamp=[2023-10-30 00:46:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.665, duration_ms=665, data={editors_count=7, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Dummy_Crypto_Application,Dummy_Crypto_Application_system,Dummy_Crypto_Platform,RemoteSystemsTempFiles}
+timestamp=[2023-10-30 01:01:07], mode=BUILD, duration=0:00:01.264, duration_ms=1264, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-30 01:03:53], mode=BUILD, duration=0:00:01.170, duration_ms=1170, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
+timestamp=[2023-10-30 01:04:16], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=Dummy_Crypto_Application, configuration=Debug, clean_build=false}
